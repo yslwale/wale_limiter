@@ -1,0 +1,36 @@
+// Windows VERSIONINFO resource for wale_limiter.addon64.
+//
+// Generated from this template by CMake (configure_file, @ONLY) or by build.ps1:
+// @WALE_VERSION@ / @WALE_VERSION_COMMA@ are substituted at configure time.
+// Do not edit the generated build/version.rc - edit this template instead.
+
+#include <winver.h>
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION    @WALE_VERSION_COMMA@
+ PRODUCTVERSION @WALE_VERSION_COMMA@
+ FILEFLAGSMASK  VS_FFI_FILEFLAGSMASK
+ FILEFLAGS      0x0L
+ FILEOS         VOS_NT_WINDOWS32
+ FILETYPE       VFT_DLL
+ FILESUBTYPE    VFT2_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"   // U.S. English, Unicode
+        BEGIN
+            VALUE "CompanyName",      "wale"
+            VALUE "FileDescription",  "wale_limiter - ReShade addon that caps the game to 60 FPS"
+            VALUE "FileVersion",      "@WALE_VERSION@"
+            VALUE "InternalName",     "wale_limiter"
+            VALUE "LegalCopyright",   "Copyright (C) 2026 wale and contributors. GPLv3."
+            VALUE "OriginalFilename", "wale_limiter.addon64"
+            VALUE "ProductName",      "wale_limiter"
+            VALUE "ProductVersion",   "@WALE_VERSION@"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200   // U.S. English, Unicode codepage
+    END
+END

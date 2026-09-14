@@ -1,0 +1,35 @@
+wale_limiter - where to get the source code
+===========================================
+
+This add-on is free software under the GNU General Public License, version 3.
+That means you are entitled to the complete source code for the exact build in
+this zip - not a similar version, the same one - and you may study it, change
+it, and pass it on.
+
+  Source code:  https://github.com/yslwale/wale_limiter
+
+This offer is good for anyone who received this zip, however they received it -
+downloaded from the releases page, handed over on Discord, or copied from a
+friend.
+
+What is in this zip
+-------------------
+
+  wale_limiter.addon64     The add-on itself. GPLv3. Source at the link above,
+                           with the full copyright notices in src/main.cpp.
+                           Built for Underground Racing.
+
+  dxgi.dll                 ReShade, by Patrick Mours. Not ours, and not GPL -
+                           it is BSD 3-Clause. Unmodified official build. See
+                           ReShade-LICENSE.txt. Source: https://reshade.me
+
+  Enable-ReShade.bat       Helper script that allows ReShade in FiveM. GPLv3,
+                           same source as the add-on. It is a plain text file -
+                           open it in Notepad and read it before running it.
+
+Licenses in this zip
+--------------------
+
+  LICENSE.txt              GPLv3. Covers the add-on and the .bat script.
+  ReShade-LICENSE.txt      BSD 3-Clause. Covers dxgi.dll.
+  Dear-ImGui-LICENSE.txt   MIT. Covers the Dear ImGui code the overlay uses.
